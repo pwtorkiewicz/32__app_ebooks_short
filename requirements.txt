@@ -1,10 +1,7 @@
 streamlit
 openai
-dotenv
+python-dotenv
 instructor
 pydantic
-typing
 requests
-io
 fpdf
-datetime
