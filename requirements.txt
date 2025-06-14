@@ -4,7 +4,6 @@ dotenv
 instructor
 pydantic
 typing
-os
 requests
 io
 fpdf
