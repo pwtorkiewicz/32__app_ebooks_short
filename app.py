@@ -261,7 +261,7 @@ with st.sidebar:
     with col1:
         st.subheader("Wybierz styl opowiadania")
         # Pole wyboru dla zmiennej 'style'
-        style_options = ['Szekspira', 'Fantasy', 'Science-fiction', 'Norwida', 'Zbigniewa Herberta', 'INNE']
+        style_options = ['Szekspira', 'Fantasy', 'Science-fiction', 'Norwida', 'Zbigniewa Herberta', 'Fiodor Dostojewski', 'INNE']
         style = st.selectbox("Wybierz styl:", style_options)
         # Jeśli wybrano "INNE", wyświetl pole tekstowe
         if style == "INNE":
